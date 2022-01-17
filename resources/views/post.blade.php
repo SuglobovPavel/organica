@@ -12,8 +12,7 @@
     <h1>My blog</h1>
 
     <article>
-        <h2>My first post</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut provident optio dolorum mollitia laborum aperiam pariatur rem ad similique molestias cum voluptatem blanditiis saepe ratione voluptas veritatis, perspiciatis dolor perferendis!</p>
+        <?=$post ?>
     </article>
     <a href="/">Go back</a>
 </body>
