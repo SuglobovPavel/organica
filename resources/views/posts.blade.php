@@ -12,9 +12,9 @@
     <h1>My blog</h1>
     <?php foreach($posts as $post): ?>
     <article>
-        <h2>My first post</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut provident optio dolorum mollitia laborum aperiam pariatur rem ad similique molestias cum voluptatem blanditiis saepe ratione voluptas veritatis, perspiciatis dolor perferendis!</p>
-        <a href="/posts/my-first-post">Read more</a>
+        <h2><?= $post->title ?></h2>
+        <p><?= $post->excerpt ?></p>
+        <a href="/posts/<?= $post->slug ?>">Read more</a>
     </article>
     <?php endforeach ?>
 </body>
