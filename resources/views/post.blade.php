@@ -1,6 +1,6 @@
 <x-layaots>
     <h1>My blog</h1>
-
+    
     <article>
         <h1>{{ $post->title }}</h1>
         <div>
