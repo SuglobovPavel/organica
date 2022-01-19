@@ -6,6 +6,7 @@
     <article class="my-class-{{$loop->index}} my-class-{{ $loop->even ? 'even': '' }}">
         <h2>{{ $post->title }}</h2>
         <p>{{ $post->excerpt }}</p>
+        <p>Category:   <a href="{{ $post->category->slug }}">{{ $post->category->name }}</a></p>
         <a href="/posts/{{ $post->slug }}">Read more</a>
     </article>
     <?php endforeach ?>
